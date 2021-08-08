@@ -7,24 +7,56 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="" />
     <title>Louie MC</title>
   </head>
   <body>
     <div class="container">
-      <nav>
-        <img src="" alt="Louie MC favicon" />
+      <nav id="navBar" class="sticky">
+        <ul>
+          <li><a href="#hero" id="navHome" class="navItem">Home</a></li>
+          <li>
+            <a href="#projects" id="navProjects" class="navItem">Projects</a>
+          </li>
+          <li><a href="#about" id="navAbout" class="navItem">About</a></li>
+          <img src="./images/moon.png" alt="moon by goodware" />
+          <img src="./images/sun.png" alt="sun by goodware" />
+        </ul>
       </nav>
+      <div id="hero" class="hero"></div>
     </div>
 
-    <main>
-      <!-- About me -->
-      <section></section>
-
+    <main class="container">
       <!-- Portfolio/Latest Works -->
-      <section></section>
+      <section id="projects" class="innerContainer">
+        <ul class="projectsList">
+          <li class="projects"></li>
+          <li class="projects"></li>
+          <li class="projects"></li>
+          <li class="projects"></li>
+          <li class="projects"></li>
+          <li class="projects"></li>
+          <li class="projects"></li>
+          <li class="projects"></li>
+        </ul>
+      </section>
+
+      <!-- About me -->
+      <section id="about" class="innerContainer"></section>
 
       <!-- Footer -->
-      <footer></footer>
+      <footer class="innerContainer">
+        <!-- media -->
+        <p>Find me on the interwebs</p>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <!-- back to top -->
+        <img src="./images/up-arrow.png" alt="up arrow by vitaly gorbachev" />
+      </footer>
     </main>
     <!-- JS -->
     <script src="./js/main.js"></script>
