@@ -9,31 +9,102 @@
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/jpg" href="" />
-    <title>Louie MC</title>
+    <title>Louie</title>
   </head>
   <body>
     <div class="container">
       <nav id="navBar" class="sticky">
         <ul>
-          <li><a href="#hero" id="navHome" class="navItem">Home</a></li>
+          <li><a href="#hero" id="navHome" class="nav-item">Home</a></li>
+
+          <li><a href="#about" id="navAbout" class="nav-item">About</a></li>
           <li>
-            <a href="#projects" id="navProjects" class="navItem">Projects</a>
+            <a href="#projects" id="navProjects" class="nav-item">Projects</a>
           </li>
-          <li><a href="#about" id="navAbout" class="navItem">About</a></li>
           <img src="./images/moon.png" alt="moon by goodware" />
           <img src="./images/sun.png" alt="sun by goodware" />
         </ul>
       </nav>
-      <div id="hero" class="hero"></div>
+      <div id="hero" class="hero">
+        <h1>Caitlyn Louie</h1>
+        <h2>The beginnings of a full-stack web developer</h2>
+      </div>
     </div>
 
     <main class="container">
+      <!-- About me -->
+      <section id="about" class="inner-container">
+        <div class="home-intro">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus atque
+            aliquam, natus ea ipsum ipsa dolores id ex a cumque. Eum quasi
+            similique distinctio a ducimus exercitationem neque incidunt. Optio?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            non quod fugiat sint at rerum, unde nam! Architecto quos, nemo
+            officia, itaque ipsam ab molestias saepe doloremque culpa eligendi
+            quis?
+          </p>
+        </div>
+      </section>
+
       <!-- Portfolio/Latest Works -->
-      <section id="projects" class="innerContainer">
+      <section id="projects" class="inner-container">
         <ul class="projectsList">
-          <li class="projects"></li>
-          <li class="projects"></li>
-          <li class="projects"></li>
+          <li class="projects">
+            <div class="card">
+              <a
+                ><img src="./images/guess-my-number.png" alt="guess my number"
+              /></a>
+              <a
+                href="https://louiemc.github.io/guessMyNumber/"
+                class="button overlay-button"
+              ></a>
+              <a
+                href="https://louiemc.github.io/guessMyNumber/"
+                class="overlay"
+              ></a>
+            </div>
+            <a href="https://louiemc.github.io/guessMyNumber/">
+              <p>Guess My Number</p>
+            </a>
+          </li>
+          <li class="projects">
+            <div class="card">
+              <a
+                ><img
+                  src="./images/modal-window.png"
+                  alt="modal window example"
+              /></a>
+              <a
+                href="https://louiemc.github.io/modalWindow/"
+                class="button overlay-button"
+              ></a>
+              <a
+                href="https://louiemc.github.io/modalWindow/"
+                class="overlay"
+              ></a>
+            </div>
+            <a href="https://louiemc.github.io/modalWindow/">
+              <p>Playing With Modals</p>
+            </a>
+          </li>
+          <li class="projects">
+            <div class="card">
+              <a
+                ><img
+                  src="./images/pig-game.png"
+                  alt="pig game or number game example"
+              /></a>
+              <a
+                href="https://louiemc.github.io/pigGame/"
+                class="button overlay-button"
+              ></a>
+              <a href="https://louiemc.github.io/pigGame/" class="overlay"></a>
+            </div>
+            <a href="https://louiemc.github.io/pigGame/"> <p>Pig Game</p> </a>
+          </li>
           <li class="projects"></li>
           <li class="projects"></li>
           <li class="projects"></li>
@@ -42,20 +113,25 @@
         </ul>
       </section>
 
-      <!-- About me -->
-      <section id="about" class="innerContainer"></section>
-
       <!-- Footer -->
-      <footer class="innerContainer">
-        <!-- media -->
-        <p>Find me on the interwebs</p>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <!-- back to top -->
-        <img src="./images/up-arrow.png" alt="up arrow by vitaly gorbachev" />
+      <footer id="site-footer">
+        <div class="footer-content">
+          <div class="container">
+            <!-- media -->
+            <p>Find me on the interwebs</p>
+            <ul class="links">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <!-- back to top -->
+            <img
+              class="to-top"
+              src="./images/up-arrow.png"
+              alt="up arrow by vitaly gorbachev"
+            />
+          </div>
+        </div>
       </footer>
     </main>
     <!-- JS -->
